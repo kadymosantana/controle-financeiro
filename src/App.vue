@@ -184,8 +184,8 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
 
-  @media (max-width: 500px) {
-    font-size: 2.2rem;
+  @media (max-width: 1000px) {
+    font-size: 2rem;
   }
 }
 
@@ -194,7 +194,7 @@ h1 {
   flex-direction: column;
   gap: 20px;
   max-width: 950px;
-  padding: 30px;
+  padding: 20px;
   margin: 0 auto;
   overflow-x: scroll;
 }
@@ -204,7 +204,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   max-width: 100%;
-  @media (max-width: 500px) {
+  @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
   }

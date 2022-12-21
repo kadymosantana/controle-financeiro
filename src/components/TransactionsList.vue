@@ -65,7 +65,7 @@ table {
   padding: 1rem;
   overflow-x: scroll;
 
-  @media (max-width: 500px) {
+  @media (max-width: 1000px) {
     display: block;
   }
 }
@@ -77,7 +77,7 @@ thead {
     th {
       text-align: start;
 
-      @media (max-width: 500px) {
+      @media (max-width: 1000px) {
         padding-right: 3rem;
       }
 
@@ -107,7 +107,7 @@ tbody {
       cursor: pointer;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 1000px) {
       padding: 0.5rem 3rem 0.5rem 0;
 
       &:nth-child(5) {

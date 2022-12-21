@@ -69,9 +69,10 @@ form {
   box-shadow: 0px 0px 10px #dcdce6;
   padding: 1rem;
 
-  @media (max-width: 500px) {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
     gap: 1rem;
+    justify-content: center;
   }
 
   [type="text"],
@@ -86,14 +87,14 @@ form {
       box-shadow: 0px 0px 3px #a5a5a5;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 1000px) {
+      max-width: 100%;
+
       &:nth-child(1) {
-        grid-column: 1/3;
         grid-row: 1;
       }
 
       &:nth-child(2) {
-        grid-column: 1/3;
         grid-row: 2;
       }
     }
@@ -112,9 +113,14 @@ form {
         accent-color: #333;
       }
     }
+
+    @media (max-width: 1000px) {
+      grid-row: 3;
+    }
   }
 
   button {
+    max-width: 100%;
     height: 100%;
     background-color: #333;
     color: #fff;
@@ -127,9 +133,8 @@ form {
       box-shadow: 0px 0px 10px #a5a5a5;
     }
 
-    @media (max-width: 500px) {
-      grid-column: 2;
-      grid-row: 3;
+    @media (max-width: 1000px) {
+      grid-row: 4;
     }
   }
 }

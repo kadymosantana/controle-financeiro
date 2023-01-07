@@ -185,7 +185,9 @@ h1 {
   margin-bottom: 30px;
 
   @media (max-width: 1000px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 15px;
   }
 }
 

@@ -1,17 +1,18 @@
-# Controle Financeiro 💲
-Mais um projeto com Vue.js! Essa é uma aplicação básica de controle de finanças pessoais, onde o usúário pode registrar suas receitas e despesas e todas as suas alterações ficam salvas no armazenamento do navegador (localStorage). Voltei a utilizar o modelo de Options API do Vue.js após um tempo utilizando Composition API.
+# 💲 Controle Financeiro
 
-![](https://user-images.githubusercontent.com/98963793/208561427-f79adce8-7101-46ce-bbda-907803e3cdf8.png)
+![Controle Financeiro](https://user-images.githubusercontent.com/98963793/211439083-64048195-4c30-4af0-865b-8c2a5a6cdf58.png)
 
-## 🔛 Demo
-O deploy da aplicação foi feito na plataforma de hospedagem Vercel e você pode acessá-la [neste link](https://controle-financeiro-kadymo.vercel.app/)
+## 📖 Sobre o projeto
+Mais um projeto com Vue! Essa é uma <b>aplicação básica de controle de finanças pessoais</b>, onde o usúário pode registrar suas receitas e despesas e todas as suas alterações ficam salvas no armazenamento do navegador (localStorage).
 
 ## 🛠️ Ferramentas utilizadas
 A aplicação foi deselvolvida com as seguintes tecnologias:
-- Vue.js 3 (Options API)
-- Vue CLI
-- SASS (sintaxe SCSS)
-- Babel
-- ESLint
-- Vercel
+- HTML;
+- SASS (sintaxe SCSS);
+- JavaScript;
+- Vue.js 3;
+- Vue CLI;
+
+## 💻 Live Preview
+O deploy da aplicação foi feito na plataforma Vercel> Você pode acessá-la [neste link](https://controle-financeiro-kadymo.vercel.app/).
 

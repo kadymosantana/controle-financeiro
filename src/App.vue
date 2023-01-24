@@ -9,7 +9,7 @@
         </template>
 
         <template #typeIcon>
-          <img src="@/assets/icons/revenue.svg" alt="">
+          <img src="./assets/icons/revenue.svg" alt="" />
         </template>
 
         <template #value>
@@ -23,7 +23,7 @@
         </template>
 
         <template #typeIcon>
-          <img src="@/assets/icons/expense.svg" alt="">
+          <img src="./assets/icons/expense.svg" alt="" />
         </template>
 
         <template #value>
@@ -37,7 +37,7 @@
         </template>
 
         <template #typeIcon>
-          <img src="@/assets/icons/total.svg" alt="">
+          <img src="./assets/icons/total.svg" alt="" />
         </template>
 
         <template #value>
